@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+/* .......................................
+  HEADER PART CSS
+*/
+.material-icons {
+  font-size: 18px;
+  height: 16px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-img-overlay {
+  background: linear-gradient(to top, #fce38a, #f38181);
+  opacity: 0.9;
 }
+header > .card > img {
+  min-height: 850px;
+}
+header ul li a:hover {
+  color: #fce38a !important;
+  border-bottom: 2px solid #fce38a;
+}
+header .content {
+  margin: 4em 0;
+}
+header .content span {
+  width: 60px;
+  height: 3px;
+}
+header h1 {
+  font-size: 9.375rem;
+}
+header .progress {
+  height: 0.15rem;
+}
+header .col:first-child .progress .progress-bar {
+  width: 25%;
+}
+/* 
+  ........................................................
+*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+/* About US part */
+
+
+/* .................................................... */
+/* 
+
+Media Queries 
+max screen(992px).................
+*/
+@media screen and (max-width: 991.98px) {
+  header > .card > img {
+    min-height: 500px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* ............................ */
