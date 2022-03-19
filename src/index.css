@@ -12,7 +12,7 @@ code {
 }
 
 /* Header */
-header h2 {
+header h2, section .container > h3 {
   font-family: Kaushan Script !important;
   
 }

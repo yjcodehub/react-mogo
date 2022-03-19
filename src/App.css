@@ -19,7 +19,8 @@ header ul li a:hover {
 header .content {
   margin: 4em 0;
 }
-header .content span {
+header .content span,
+section .container > span {
   width: 60px;
   height: 3px;
 }
@@ -36,12 +37,50 @@ header .col:first-child .progress .progress-bar {
   ........................................................
 */
 
-
-
 /* About US part */
+.about .material-icons {
+  font-size: 2.5em;
+  height: 30px;
+}
 
-
+.about .card img,
+.about .card {
+  transition: all 0.2s ease-in;
+  top: 0;
+  left: 0;
+}
+.about .card-img-overlay {
+  width: 100%;
+  height: -webkit-fill-available;
+  top: 0;
+  left: 0;
+  transition: all ease-in 0.2s;
+  opacity: 0;
+}
+.about .card:hover .card-img-overlay {
+  top: -10px;
+  left: -10px;
+  bottom: unset;
+  right: unset;
+  opacity: 0.9;
+}
+.about .card:hover img {
+  position: relative;
+  top: -10px;
+  left: -10px;
+}
+.about .card:hover {
+  background-color: #95e1d3;
+}
 /* .................................................... */
+
+/* 
+  Facts Part Section 3 .............................
+*/
+.facts{
+  background-color: #95e1d3;
+}
+/* ................................................. */
 /* 
 
 Media Queries 
